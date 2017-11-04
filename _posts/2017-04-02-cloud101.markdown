@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Cloud 101"
+date:   2017-04-02 11:34:20
+categories: Cloud AWS
+tags: Cloud AWS
+author: Cloud Kraken
+image: /img/Cloud-101.jpg
+---
+
+**Cloud Computing**
+
+Cloud computing is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform over the internet.
+
+**Advantages:**
+
+* Pay as you go: This significantly lowers the cost of maintaining applications, resources across enterprise.
+
+* Cost Effective: We don’t need to maintain our own datacenters. This is cost effective as we don’t have to maintain any infrastructure.
+
+* Self Service Provisioning: We don’t have to depend on service providers/admins/other teams anymore. We can spin up our own servers, customize all aspects like ram, storage, CPU, software’s that needs to be installed.
+
+* Auto Scaling: We don’t have to guess how much resources we need any more. We can auto scale our applications on demand.
+
+* Go Global: We can take our application global with a click of button and don’t even have to worry about computational burden.
+
+
+**How can we Categorize Cloud Computing Services?**
+
+We can categorize them into three types.
+
+*	***Infrastructure as service(IaaS)***
+*	***Platform as A Service(PaaS)***
+*	***Software as A Service(SaaS)***
+
+***IaaS***: All the Infrastructure components like instances, storage, network etc.., are provided as service by service providers. Customers can leverage these services and build their application on demand. Amazon AWS, Microsoft Cloud, Google Cloud, IBM Bluemix are major stake holders in this space.
+
+***PaaS***: This is a platform where customer can build, deploy and maintain their own application very quickly and cost effectively. Customers can focus on their business needs as all the underlying complexities are taken care by service providers. Force.com(Salesforce), Windows Azure, Amazon Elastic Bean Stalk Big Paas Providers.
+
+***SaaS***: This is a model where customers can get software over internet from a service provider. Cisco WebEx is an example where we get software as a service. Microsoft office, Salesforce, GoTo Meeting are few examples.
+
+
+**How can I Use these Cloud Computing Services for Personal Use/startup Company/Big Enterprise?**
+
+The Common Deployment models used are
+
+*	***Public***
+*	***Private and***
+*	***Hybrid***
+
+
+
+

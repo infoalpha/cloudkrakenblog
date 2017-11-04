@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "AWS 101"
+date:   2017-04-02 11:34:20
+categories: Cloud AWS
+tags: AWS Cloud Region AvailabilityZone
+author: Cloud Kraken
+image: /img/AWS101.png
+---
+
+
+Amazon Web Services (AWS) provides on-demand computing resources and services in the cloud, with pay-as-you-go pricing.
+
+**Advantages:**
+
+* Lower Cost. Pay as you go and usage.
+* Don’t have to maintain datacenters(infra).
+* Stop guessing Infra capacity. Auto scaling will help us here
+* Go global in minutes
+
+
+**How Do I Access AWS?**
+
+AWS provides 5 ways to create and manage resources.
+
+
+*	**AWS Management Console:** Web Interface to access AWS Services.
+*	**AWS Command Line Interface (AWS CLI):** Commands for a broad set of AWS products.
+*	**Command Line Tools:** Commands for individual AWS products.
+*	**AWS Software Development Kits (SDK):** APIs that are specific to your programming language or platform. For more information, see SDKs.
+*	**Query APIs:** Low-level APIs that you access using HTTP requests. For more information, see the API documentation for each service.
+
+**What is Region?**
+
+* An Amazon AWS region is a physical location or geographic location where we host your data/application. 
+* In each region, there will be at least two availability zones for fault tolerance.
+* Each region is completely independent.
+* Resources aren't replicated across regions unless you do so specifically.
+* Note that prices for AWS usage vary by region.
+* There 14 Regions Currently Amazon supports.
+* Each region contains multiple distinct locations called Availability Zones.
+* Amazon don’t replicate resources across regions automatically.
+
+
+**What is Availability Zone (AZ)?**
+
+* Availability Zone is a combination of one or more datacenters in each region.
+* AZ is engineered to be isolated from failures from another AZ’s.
+* AWS resources can be tied to a region or tied to an Availability Zone.
+* Not every region or Availability Zone supports every AWS resource.
+* When you view your resources, you'll only see the resources tied to the region you've specified.
+* This is because regions are isolated from each other, and we don't replicate resources across regions automatically.
+* An AZ is a combination of one or more data centers in a region.
+* These datacenters need not to be separated by multiple kilometers physically but by meters with in a physical compound which are completely isolated from each other failure such as power, network in a AZ.
+* It is a logical grouping of data centers, in a region for service high availability.
+* These AZs in a region are connected using direct Fiber optic links which have capacity of around 25Tbps bandwidth and a latency of 2ms to 1ms.
+* Below list shows availability zones in given regions.
+* Each Availability Zone is isolated, but the Availability Zones in a region are connected through low-latency links
+
+
+![alt text](/img/Region-AZ.png)
+
+
+
+
+
+
+
+

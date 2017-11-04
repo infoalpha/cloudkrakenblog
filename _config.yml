@@ -1,0 +1,37 @@
+# Site settings
+title: Cloud Kraken
+email: iamcloudkraken@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to Cloud Kraken Blog.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://cloudkraken.com" # the base hostname & protocol for your site
+twitter_username:
+github_username:
+google_play: ''
+google_plus_com: ''  # Community link
+google_plus_per: ''  #Personal link
+facebook_app_id: 
+
+# Layout settings
+header_type: default  # values [ drawer, default ]
+post_type: highlight    # values [ highlight, default ]
+pagination_type: ops  # values [ ops, default ]
+
+more_vert:
+  option1:
+    name: GitHub
+    link: https://github.com/
+  option2:
+    name: Twitter
+    link: https://twitter.com/
+  option3:
+    name: LinkedIn
+    link: https://www.linkedin.com/
+
+disqus: true
+disqus_shortname: 'cloudkraken'
+
+
+# Build settings
+markdown: kramdown
+show_drafts: false
